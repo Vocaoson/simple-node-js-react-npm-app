@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                sh 'npm install -g appium --unsafe-perm=true --allow-root' 
+                sh 'npm install node-sass' 
             }
         }
     }
