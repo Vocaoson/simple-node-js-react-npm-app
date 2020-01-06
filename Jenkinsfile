@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                sh 'npm install --unsafe-perm=true' 
+                sh 'sudo npm install --unsafe-perm=true' 
             }
         }
     }
