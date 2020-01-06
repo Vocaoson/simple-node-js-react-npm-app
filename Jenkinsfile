@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                sh 'npm install --unsafe-perm=true' 
+                sh 'npm install -g appium --unsafe-perm=true --allow-root' 
             }
         }
     }
